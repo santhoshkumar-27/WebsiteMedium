@@ -1,3 +1,7 @@
+:root {
+  --primary-font: "Noto Serif", serif;
+  --special-font: "Georgia", sans-serif;
+}
 html,
 body {
   font-size: 16px;
@@ -22,16 +26,15 @@ svg {
   margin: 0;
   padding: 0;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-#header-background-color {
+#header-background-image,
+.z {
   background-color: #c4e2ff;
 }
 /* Flex properties */
@@ -53,14 +56,28 @@ svg {
 .af {
   display: block;
 }
-
+.ag {
+  box-sizing: border-box;
+}
+.ah {
+  flex: 1 0 auto;
+}
+.ai {
+  align-items: center;
+}
+.aj {
+  display: inline;
+}
+.ak{
+    justify-content: flex-start
+}
 /* background-top */
 
 .b {
-  border-top: 1px solid grey;
+  border-top: 1px solid rgb(196, 196, 196);
 }
 .ba {
-  z-index: 12;
+  z-index: 10;
 }
 .bb {
   position: fixed;
@@ -95,15 +112,102 @@ svg {
 .bl {
   height: inherit;
 }
-.bm{
-   padding-top: 25px;
+.bm {
+  padding-top: 23px;
 }
-.bn{
-    padding-bottom: 25px;
+.bn {
+  padding-bottom: 23px;
 }
-.bo{
-    width: 160px;
+.bo {
+  width: 160px;
 }
-.bp{
-    flex: 1 0 auto;
+.bp {
+  font-family: var(--primary-font), "serif";
+}
+.bq {
+  height: 30px;
+}
+.br {
+  font-weight: 400;
+}
+.bs {
+  text-decoration: none;
+}
+.bt {
+  color: black;
+}
+.bu {
+  color: inherit;
+}
+.bv {
+  opacity: 0.8;
+}
+.bw {
+  font-size: 17px;
+}
+.bx {
+  line-height: 20px;
+}
+.by {
+  margin-right: 25px;
+}
+/* button */
+.bz {
+  background-color: black;
+}
+.ca {
+  color: white;
+}
+.cb {
+  border: 1px solid black;
+}
+.cc {
+  border-radius: 20px;
+}
+.cd {
+    padding-block: 10px;
+}
+.ce{
+    padding-inline: 10px;
+}
+.cf{
+    cursor: pointer;
+}
+.cg{
+    font-size: 17px;
+}
+/* background-image-header */
+.ci{
+    background-image: url('../images/bkg_image/01.png')
+}
+.cj{
+    background-repeat: no-repeat;
+}
+.ck{
+    background-position: bottom 10px right 5px;
+}
+/* background-image-end */
+.cl{
+    padding-top: 25px;
+}
+.cm{
+    padding-bottom: 20px;
+}
+.cn{
+    width: 550px;
+}
+.co{
+    z-index: 2;
+}
+.cp{
+    font-weight: 200;
+}
+.cq{
+    font-size: 70px;
+}
+.cr{
+    letter-spacing: -4px;
+}
+.cs{
+    line-height: 80px;
 }
