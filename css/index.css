@@ -360,3 +360,34 @@ svg {
 .ep{
   border-bottom: 1px solid rgb(214, 213, 213)
 }
+.eq{
+  max-width: 56.4375rem;
+}
+.er{
+  font-size: 15px;
+}
+.es{
+  letter-spacing: -0.01em
+}
+.et{
+  text-transform: capitalize;
+}
+.eu{
+  border: 1px solid rgba(221, 228, 240);
+}
+.ev{
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.ew{
+  width: fit-content;
+}
+.ex{
+  padding-block: 10px;
+}
+.ey{
+  padding-inline: 15px;
+}
+.ez{
+  border-radius: 5px;
+}
