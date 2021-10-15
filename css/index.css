@@ -68,8 +68,8 @@ svg {
 .aj {
   display: inline;
 }
-.ak{
-    justify-content: flex-start
+.ak {
+  justify-content: flex-start;
 }
 /* background-top */
 
@@ -165,49 +165,82 @@ svg {
   border-radius: 20px;
 }
 .cd {
-    padding-block: 10px;
+  padding-block: 10px;
 }
-.ce{
-    padding-inline: 10px;
+.ce {
+  padding-inline: 10px;
 }
-.cf{
-    cursor: pointer;
+.cf {
+  cursor: pointer;
 }
-.cg{
-    font-size: 17px;
+.cg {
+  font-size: 17px;
 }
 /* background-image-header */
-.ci{
-    background-image: url('../images/bkg_image/01.png')
+.ci {
+  background-image: url("../images/bkg_image/01.png");
 }
-.cj{
-    background-repeat: no-repeat;
+.cj {
+  background-repeat: no-repeat;
 }
-.ck{
-    background-position: bottom 10px right 5px;
+.ck {
+  background-position: bottom 10px right 5px;
 }
 /* background-image-end */
-.cl{
-    padding-top: 25px;
+.cl {
+  padding-top: 25px;
 }
-.cm{
-    padding-bottom: 20px;
+.cm {
+  padding-bottom: 20px;
 }
-.cn{
-    width: 550px;
+.cn {
+  width: 550px;
 }
-.co{
-    z-index: 2;
+.co {
+  z-index: 2;
 }
-.cp{
-    font-weight: 200;
+.cp {
+  font-weight: 200;
 }
-.cq{
-    font-size: 70px;
+.cq {
+  font-size: 70px;
 }
-.cr{
-    letter-spacing: -4px;
+.cr {
+  letter-spacing: -4px;
 }
-.cs{
-    line-height: 80px;
+.cs {
+  line-height: 80px;
+}
+.ct{
+  font-size: 50px;
+}
+.cu{
+  line-height: 52px;
+}
+.cv{
+  margin-bottom: 20px;
+}
+.cw{
+  opacity: 0.79;
+}
+.cx{
+  font-size: 17px;
+}
+.cy{
+  font-weight: 400;
+}
+.cz{
+  width: 80%;
+}
+.da{
+  line-height: 20px;
+}
+.db{
+  padding: 7px 20px 8px;
+}
+.de{
+  font-size: 16px;
+}
+.df{
+  background-color: white;
 }
