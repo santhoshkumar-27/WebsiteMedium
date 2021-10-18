@@ -328,7 +328,7 @@ svg {
   margin-left: 10px;
 }
 .eb {
-  /* line-height: 29px; */
+  visibility: visible;
 }
 .ec {
   font-size: 13px;
