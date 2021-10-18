@@ -80,7 +80,54 @@
   }
 }
 @media (min-width: 904px) {
-    .zf{
-        display: none;
-    }
+  .zf {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .f {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 1080px) {
+  .wc {
+    grid-column-gap: 30px;
+  }
+  .wd {
+    grid-column: 1 / span 8;
+  }
+  .we {
+    grid-column: 9/-1;
+  }
+}
+@media (max-width: 903px) {
+  .zg {
+    display: none;
+  }
+  .wa {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .fa {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .fc {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media (max-width: 700px) {
+  .fj {
+    display: none;
+  }
+}
+@media (max-width: 460px) {
+  .fi {
+    font-size: 18px;
+  }
 }

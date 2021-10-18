@@ -77,6 +77,15 @@ svg {
 .am {
   flex: 0 0 auto;
 }
+.an {
+  justify-content: space-between;
+}
+.ao {
+  flex: 1 1 auto;
+}
+.ap{
+  align-items: baseline;
+}
 /* background-top */
 
 .b {
@@ -319,7 +328,7 @@ svg {
   margin-left: 10px;
 }
 .eb {
-  line-height: 29px;
+  /* line-height: 29px; */
 }
 .ec {
   font-size: 13px;
@@ -333,61 +342,147 @@ svg {
 .eg {
   color: rgb(99 106 104);
 }
-.eh{
+.eh {
   margin-bottom: 8px;
 }
-.ei{
+.ei {
   text-overflow: ellipsis;
 }
-.ej{
+.ej {
   font-size: 18px;
 }
-.ek{
+.ek {
   font-weight: 600;
 }
-.el{
+.el {
   letter-spacing: 0px;
 }
-.em{
+.em {
   line-height: 20px;
 }
-.en{
+.en {
   padding-inline: 3px;
 }
-.eo{
+.eo {
   opacity: 0.5;
 }
-.ep{
-  border-bottom: 1px solid rgb(214, 213, 213)
+.ep {
+  border-bottom: 1px solid rgb(214, 213, 213);
 }
-.eq{
+.eq {
   max-width: 56.4375rem;
 }
-.er{
+.er {
   font-size: 15px;
 }
-.es{
-  letter-spacing: -0.01em
+.es {
+  letter-spacing: -0.01em;
 }
-.et{
+.et {
   text-transform: capitalize;
 }
-.eu{
+.eu {
   border: 1px solid rgba(221, 228, 240);
 }
-.ev{
+.ev {
   margin-right: 10px;
   margin-bottom: 5px;
 }
-.ew{
+.ew {
   width: fit-content;
 }
-.ex{
+.ex {
   padding-block: 10px;
 }
-.ey{
+.ey {
   padding-inline: 15px;
 }
-.ez{
+.ez {
   border-radius: 5px;
+}
+.f {
+  padding-top: 50px;
+}
+.fa {
+  margin-bottom: 40px;
+}
+.fb {
+  opacity: 1;
+}
+.fc {
+  width: 200px;
+}
+.fd {
+  width: 100%;
+}
+.fe {
+  margin-right: 30px;
+}
+.ff{
+  padding-bottom: 10px;
+}
+.fg{
+  color:rgb(71, 70, 70)
+}
+.fh{
+  padding-top: 5px;
+}
+.fi{
+  font-size: 22px;
+}
+.fj{
+  font-size: 16px;
+}
+.fk{
+  color:rgb(141, 127, 127)
+}
+.fl{
+  padding-left: 5px;
+}
+.fm{
+  line-height: 25px;
+}
+.fn{
+  padding-right: 5px;
+}
+.fo{
+  background-color: rgb(212, 212, 212);
+}
+.fo:hover{
+  background-color:rgb(179, 180, 177);
+}
+.fp{
+  padding: 2px 5px;
+}
+.fq{
+  position: sticky;
+}
+.fr{
+  top: 110px;
+}
+.fs{
+  padding: 25px 0;
+}
+/* Grid face */
+
+.w {
+  display: grid;
+}
+.wa {
+  grid-template-columns: repeat(8, 1fr) repeat(4, minmax(48px, 1fr));
+}
+.wb {
+  grid-template-rows: 1fr;
+}
+.wc {
+  grid-column-gap: 0;
+}
+.wd {
+  grid-column: 1 / span 7;
+}
+.we {
+  grid-column: 9/-1;
+}
+.wf {
+  grid-row-start: 1;
 }
